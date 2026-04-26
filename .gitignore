@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Model weights 
+*.pt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Cache
+.cache/
+*.npy
+
+# Output files
+output/
+out.mp4
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# Misc
+*.zip

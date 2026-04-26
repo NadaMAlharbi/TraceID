@@ -1,0 +1,22 @@
+# Core detection & tracking
+ultralytics>=8.2.0        # YOLO v8 / v11 (downloads weights automatically)
+
+# ReID backbone (optional but recommended)
+# torchreid needs torch — install manually if you want OSNet:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# Then:
+#   pip install torchreid
+# The system falls back to a colour-histogram descriptor if torchreid is absent.
+
+# Tracker (optional — falls back to built-in IoU tracker if absent)
+# boxmot>=10.0.0          # provides BoT-SORT, ByteTrack, StrongSORT, etc.
+#                          # Uncomment ↑ to enable proper tracking.
+
+# Computer vision
+opencv-python>=4.8.0
+
+# UI
+Pillow>=10.0.0
+
+# Numerics (usually already a dependency)
+numpy>=1.24.0
